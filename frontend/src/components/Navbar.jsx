@@ -31,7 +31,7 @@ function Navbar() {
   return (
     <div className="flex items-center justify-between py-5 font-medium">
       <Link to={"/"}>
-        <img src={assets.logo} className="w-36" alt="logoImage" />
+        <img src={assets.shopping} className="w-36" alt="logoImage" />
       </Link>
 
       <ul className="hidden sm:flex gap-5 text-sm text-gray-700">
@@ -49,12 +49,6 @@ function Navbar() {
         </NavLink>
         <NavLink to="/contact" className="flex flex-col items-center gap-1">
           <p>CONTACT</p>
-          <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
-        </NavLink>
-
-
-        <NavLink target="_blank" to="http://localhost:3000" className="flex flex-col items-center gap-1 ">
-          <p  className="border px-5 text-sm py-1 rounded-full -mt-1">Admin Panel</p>
           <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
         </NavLink>
 

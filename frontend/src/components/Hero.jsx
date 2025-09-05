@@ -13,7 +13,7 @@ const Hero = () => {
           </div>
 
           <h1 className="prata-regular text-3xl sm:py-3 lg:text-5xl leading-relaxed">
-            Latest Arrivals
+            Latest Collections
           </h1>
 
           <div className="flex items-center gap-2">
@@ -25,7 +25,7 @@ const Hero = () => {
 
 
       {/* Hero right side */}
-      <img src={assets.hero_img} alt="Hero_img" className="w-full sm:w-1/2"/>
+      <img src={assets.about_img} alt="Hero_img" className="w-full sm:w-1/2"/>
     </div>
   );
 };
